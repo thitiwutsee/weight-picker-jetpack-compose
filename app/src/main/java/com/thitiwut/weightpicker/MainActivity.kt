@@ -31,7 +31,7 @@ fun MainContent() {
     Box(modifier = Modifier.fillMaxSize()) {
         Scale(
             modifier = Modifier
-                .fillMaxWidth()
+                .fillMaxSize()
                 .align(Alignment.Center),
             style = ScaleStyle(
                 scaleWidth = 150.dp
